@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <meta charset="utf-8" />
+    <title>DCV first connection</title>
+    <link href="./css/main.css" rel="stylesheet" type="text/css" media="all">
+    <script type="module" src="main.js"></script>
+    <script type="module" src="app.js"></script>
+
+
+    
+<!--     <script>
+        var URL = "";
+
+        function getUrl() {
+            console.log('getUrl');
+            r = document.getElementById("inputBar");
+            URL = r.value;
+            console.log("URL " + URL);
+            // Call main after getting the URL
+            main(URL);
+        }
+    </script> -->
+</head>
+
+<body>
+    <div id="root" style="background: #192534; height: 100vh;">
+        <div id="error" style="color: red; margin: 10px; padding: 5px;"></div>
+        <input type="text" id="inputBar" placeholder="Enter DCV URL" style="margin: 5px; padding: 6px;">
+        <div class="dcv-container" style="position: fixed; bottom: 1px;">
+            <div id="dcv-display" style="position:absolute"></div>
+        </div>
+    </div>
+</body>
+
+</html>
