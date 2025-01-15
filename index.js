@@ -197,5 +197,5 @@ async function connect(sessionId, authToken) {
 function onPromptCredentials(auth, credentialsChallenge) {
   console.log("Prompting for credentials:");
   //createLoginForm();
-  credentialsChallenge.respondWith("administrator", "9WrH%xhm6UZ)9zmVMhMYlCUC&o1BLEds");
+  credentialsChallenge.respondWith("administrator", "9WrH%xhm6UZ)9zmVMhMYlCUC&o1BLEds@@@");
 }
